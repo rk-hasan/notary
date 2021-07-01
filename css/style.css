@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Start Header*/
+header{
+    padding: 15px 0;
+}
+.container{
+    width: 65%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 16%;
+    /* border: 1px solid green; */
+    float: left;
+    padding: 7px 0;
+}
+.logo a img{
+    float: left;
+}
+.menu-content{
+    width: 80%;
+    /* border: 1px solid red; */
+    float: right;
+    margin: 14px 0;
+}
+.menu-content ul{
+    list-style: none;
+    float: right;
+}
+.menu-content ul li{
+    float: left;
+}
+.menu-content ul li:last-child a{
+    margin-right: 0;
+}
+.menu-content ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 10px;
+    color: rgb(121, 117, 117);
+}
+.menu-content ul li a:hover{
+    color: #C33036;
+}
+/* End Header */
+/* Start Banner */
+.banner{
+    width: 100%;
+    min-height: 520px;
+    background-image: url(../assets/banner.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-overlay{
+    width: 100%;
+    min-height: 520px;
+    background-color: #00000075;
+}
+.banner-content{
+    width: 60%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.banner-content h1{
+    margin: 0 37px 0 0;
+    padding: 100px 0 0;
+    font-size: 50px;
+    color: #FEFDF9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner-content p{
+    margin-right: 62px;
+    padding: 28px 0;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FEFDF9;
+    font-size: 14px;
+}
+.banner-content button{
+    width: 38%;
+    padding: 8px;
+    background-color: #BA203A;
+    border: 0;
+    color: #FEFDF9;;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* End Banner */
+/* Start Work text */
+.work{
+    padding: 70px 0 20px;
+    /* background-color: yellow; */
+}
+.work-text{
+    width: 70%;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    text-align: center;
+}
+.work-text h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #282828;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.work-text p{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 0 45px 0;
+    color: #C3C3C3;
+}
+/* End Work text*/
+/* start Work service*/
+.work-item{
+    /* border: 1px solid magenta; */
+    overflow: hidden;
+}
+.work-service{
+    /* border: 1px solid green; */
+    width: 25%;
+    text-align: center;
+}
+.service-text h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    margin: 0 37px;
+    padding: 10px 0 60px 0;
+}
+.service-1-float{
+    float: left;
+}
+.service-2-float{
+    float: left;
+    margin-left: 100px;
+}
+.service-3-float{
+    float: right;
+}
+/* End Work service*/
+/* Start Work Process */
+.work-process{
+    /* border: 1px solid maroon; */
+    background-color: #FAFAFA;
+    padding: 70px 0;
+}
+.process-text{
+    width: 50%;
+    float: left;
+}
+.process-text h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.process-text p{
+    font-size: 13px;
+    line-height: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    padding: 18px 0 35px;
+}
+.process-text button{
+    padding: 6px 14px;
+    border: none;
+    background-color: #BE2240;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.process-video{
+    width: 50%;
+    float: right;
+}
+.process-video iframe{
+    width: 80%;
+    min-height: 188px;
+    box-shadow: 16px 9px 60px -22px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 16px 9px 60px -22px rgba(0,0,0,0.67);
+    -moz-box-shadow: 16px 9px 60px -22px rgba(0,0,0,0.67);
+    border-radius: 5px;
+    float: right;
+    
+}
+/* End Work Process */
+/* Start Feature */
+.feature{
+    padding: 70px 0 5px;
+}
+.feature-text{
+    /* border: 1px solid green; */
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.feature-text h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #282828;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.feature-text p{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 0 45px 0;
+    color: #C3C3C3;
+}
+/* End Feature */
+/* Start feature items */
+.feature-items{
+    overflow: hidden;
+    padding: 5px;
+}
+.items{
+    width: 25%;
+    text-align: center;
+    padding: 20px 15px;
+    box-shadow: 1px 4px 10px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 4px 10px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 10px -8px rgba(0,0,0,0.75);  
+}
+.items-1-float{
+    float: left;
+}
+.items-1-float:hover{
+    box-shadow: 0px 0px 25px 9px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 0px 0px 25px 9px rgba(0,0,0,0.09);
+    -moz-box-shadow: 0px 0px 25px 9px rgba(0,0,0,0.09);
+}
+.items-2-float{
+    float: left;
+    margin-left: 58px;
+}
+.items-2-float:hover{
+    box-shadow: 0px 0px 25px 9px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 0px 0px 25px 9px rgba(0,0,0,0.09);
+    -moz-box-shadow: 0px 0px 25px 9px rgba(0,0,0,0.09);
+}
+.items-3-float{
+    float: right;
+}
+.items-3-float:hover{
+    box-shadow: 0px 0px 25px 9px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 0px 0px 25px 9px rgba(0,0,0,0.09);
+    -moz-box-shadow: 0px 0px 25px 9px rgba(0,0,0,0.09);
+}
+.items-text h5{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0 15px 0;
+}
+.items-text p{
+    font-size: 15px;
+}
+/* End feature items */
+/* Start feature items 2 */
+.feature-items-2{
+    overflow: hidden;
+    /* border: 1px solid darkblue; */
+    margin-top: 25px;
+    padding: 5px;
+}
+/* End feature items 2 */
+/* Start feature button */
+.feature-btn{
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 0;
+    text-align: center;
+}
+.feature-btn button{
+    width: 34%;
+    background-color: #fff;
+    color:red;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 1px 4px 10px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 4px 10px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 4px 10px -8px rgba(0,0,0,0.75); 
+}
+.feature-btn button:hover{
+    background-color: #BA203A;
+    color: #FAFAFA;
+    border-radius: 4px;
+    transition: .6s ease all;
+}
+/* End feature button */
+/* Start footer */
+footer{
+    /* border: 1px solid red; */
+    background-color: #090909;
+}
+/* start contact */
+.contact{
+    overflow: hidden;
+    padding: 60px 0;
+}
+.contact h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #BF2241;
+    padding: 0 0 30px;
+}
+.contact ul{
+    list-style: none;
+}
+.contact ul li a{
+    text-decoration: none;
+    color: #54616A;
+    font-size: 13px;
+}
+.col-1{
+    width: 30%;
+}
+.col-1-float{
+    float: left;
+}
+.col-1 p{
+    color: #54616A;
+    padding: 0 0 17px;
+    font-size: 13px;
+}
+.col-1 p i{
+    color: #BF2241;
+}
+.social-link{
+    padding: 43px 0 0;
+}
+.social-link a i{
+    color: #000;
+    padding: 10px 12px;
+    background-color: #54616A;
+    border-radius: 2px;
+}
+.social-link a i:hover{
+    color: #fff;
+    background-color: #BC233C;
+    transition: .6s ease all;
+}
+.col-2{
+    width: 17%;
+}
+.col-2-float{
+    float: left;
+}
+.col-2 ul li{
+    padding: 0 0 10px;
+}
+.col-3{
+    width: 34%;
+}
+.col-3-float{
+    float: right;
+}
+.col-3 p{
+    font-size: 13px;
+    padding: 0 0 74px;
+    color: #54616A;;
+}
+/* Start Subscribe form */
+form{
+    position: relative;
+}
+form input{
+    width: 49%;
+    background: transparent;
+    border: 1px solid #54616A;
+    padding: 9px 10px;
+}
+form button{
+    width: 44%;
+    border: 0;
+    outline: 0;
+    background-color: #BD2340;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+/* End Subscribe form */
+/* End contact */
+/* start Copyright */
+.copy-right{
+    width: 100%;
+    background-color: #535D69;
+    padding: 20px 0;
+    text-align: center;
+}
+.copy-right p{
+    font-size: 13px;
+    color: #FAFAFA;
+}
+/* End Copyright */
+/* End footer */
