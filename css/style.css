@@ -375,6 +375,7 @@ form input{
     background: transparent;
     border: 1px solid #54616A;
     padding: 9px 10px;
+    color: #fff;
 }
 form button{
     width: 44%;
